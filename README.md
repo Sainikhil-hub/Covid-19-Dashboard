@@ -1,5 +1,6 @@
 An interactive COVID-19 Data Visualization Dashboard built using Streamlit, Plotly Express, Matplotlib, and Seaborn.
 This project visualizes global COVID-19 data from the World Health Organization (WHO), enabling users to explore and analyze cases and deaths across different countries and regions.
+
 Interactive Filtering:
 Filter data by WHO Region or Country using sidebar options.
 Choose how many top countries (5–30) to display dynamically.
