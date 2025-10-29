@@ -1,4 +1,19 @@
-The project “Covid-19 Dashboard” focuses on visualizing global COVID-19 data using Python’s powerful libraries Matplotlib and Seaborn.
-The project imports real-world COVID-19 data from the World Health Organization (WHO) dataset and presents it through various charts including bar graphs, scatter plots, and a pie chart.
-These visualizations make it easier to understand the global spread of COVID-19, identify the most affected countries, and observe the relationship between confirmed cases and deaths.
-This project demonstrates how data visualization helps transform raw data into meaningful insights.
+An interactive COVID-19 Data Visualization Dashboard built using Streamlit, Plotly Express, Matplotlib, and Seaborn.
+This project visualizes global COVID-19 data from the World Health Organization (WHO), enabling users to explore and analyze cases and deaths across different countries and regions.
+Interactive Filtering:
+Filter data by WHO Region or Country using sidebar options.
+Choose how many top countries (5–30) to display dynamically.
+
+Visual Insights:
+Bar Charts – Top countries by cumulative cases and deaths.
+Pie Chart – Distribution of total cases among top countries.
+Scatter Plot – Relationship between total cases and deaths by region.
+Live Data Display: Explore raw and filtered dataset directly within the dashboard.
+Dynamic Updates: All charts update instantly when filters are adjusted.
+
+Technologies Used
+Library for	Purpose
+Streamlit for	Interactive web app framework
+Plotly Expressfor Interactive charting
+Pandas for Data analysis and manipulation
+Matplotlib & Seaborn for	Data visualization support
